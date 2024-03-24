@@ -10,7 +10,7 @@ const Survey = () => {
                 src='/survey.png'
                 width={1000}
                 height={600}
-                alt="survey"/>
+                alt='survey'/>
             </div>
             <div className='self-center'>
             <h2 className='text-4xl md:text-6xl font-bold'>Dulces</h2>

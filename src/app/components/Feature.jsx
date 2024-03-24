@@ -11,7 +11,7 @@ const Feature = () => {
         </h2>
 
         <p className='max-w-[550px] pt-10 text-gray-700'>
-        La pastelería <span className='text-accent font-bold'>"Sweet Shop"</span> es una verdadera joya oculta 
+        La pastelería <span className='text-accent font-bold'>Sweet Shop</span> es una verdadera joya oculta 
         en el corazón de la ciudad. Desde el momento en que entras 
         por la puerta, te envuelve un aroma embriagador de dulzura y
         frescura que te transporta a un mundo de delicias irresistibles.
@@ -20,7 +20,7 @@ const Feature = () => {
         <div className='grid md:grid-cols-[1fr,37%,1fr] gap-16 mt-10'>
         <div className='w-fit mx-auto self-end'>
         <Image className='w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl'
-            src="/banner-2.png" width={300} height={600} alt='grid image'/>
+            src='/banner-2.png' width={300} height={600} alt='grid image'/>
         <div className='space-y-4'>
         <Dash />
         <h2 className='font-medium text-xl'>Mas Dulces</h2>
@@ -33,7 +33,7 @@ const Feature = () => {
 
         <div className='w-fit mx-auto'>
         <Image className='w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl'
-            src="/banner-3.png" width={400} height={800} alt='grid image'/>
+            src='/banner-3.png' width={400} height={800} alt='grid image'/>
         <div className='space-y-4'>
         <Dash />
         <h2 className='font-medium text-xl'>Mas Dulces</h2>
@@ -45,7 +45,7 @@ const Feature = () => {
         </div>
         <div className='w-fit mx-auto self-end'>
         <Image className='w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl'
-            src="/banner-4.png" width={300} height={600} alt='grid image'/>
+            src='/banner-4.png' width={300} height={600} alt='grid image'/>
         <div className='space-y-4'>
         <Dash />
         <h2 className='font-medium text-xl'>Mas Dulces</h2>

@@ -29,14 +29,14 @@ const Services = () => {
           </p>
         </div>
         <div className='space-y-3 text-center'>
-          <Image className="mx-auto" src="/dely.png" alt="banner" width={90} height={90}/>
+          <Image className='mx-auto' src='/dely.png' alt="banner" width={90} height={90}/>
           <p className='font-bold'>Delivery</p>
           <p>Contamos con un servicio propio de envios
             a domicilio por parte del restaurante.
           </p>
         </div>
         <div className='space-y-3 text-center'>
-          <Image className="mx-auto" src="/parque.png" alt="banner" width={70} height={70}/>
+          <Image className='mx-auto' src='/parque.png' alt='banner' width={70} height={70}/>
           <p className='font-bold'>Parque infantil</p>
           <p>Estamos orgullosos de tener un parque infantil 
             donde los niños pueden disfrutar alegremente.

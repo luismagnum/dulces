@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className='relative min-h-screen '>
        <Image className="lg:w-[680px] xl:w-[820px] h-auto absolute right-0 top-0 -z-10" 
-       src="/banner-1.png"
+       src='/banner-1.png'
         width={1000}
         height={600} 
         alt='banner png'/>

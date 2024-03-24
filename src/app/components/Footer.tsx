@@ -1,7 +1,7 @@
 import React from 'react'
-import { FaFacebook } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaFacebook } from 'react-icons/fa';
+import { FaInstagramSquare } from 'react-icons/fa';
+import { FaSquareXTwitter } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
             <div className='space-y-3'>
                 <h2 className='text-xl font-bold'>Acerca de nosotros</h2>
                 <p className='leading-[1.8]'>
-                La pastelería <span className='text-accent'>"Sweet Shop"</span> no solo es la mejor de la ciudad,
+                La pastelería <span className='text-accent'>Sweet Shop</span> no solo es la mejor de la ciudad,
                 sino que también es un verdadero paraíso para los aficionados a la repostería. 
                 Su dedicación a la calidad, la creatividad y el sabor es evidente en cada aspecto
                 de su oferta, convirtiéndola en un destino imprescindible para todos los amantes
