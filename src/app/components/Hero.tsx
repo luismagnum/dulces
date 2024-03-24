@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 
 const Hero = () => {
   return (
-    <div className='relative min-h-screen '>
+    <div className='relative min-h-full '>
        <Image className="lg:w-[680px] xl:w-[820px] h-auto absolute right-0 top-0 -z-10" 
        src='/banner-1.png'
         width={1000}
@@ -12,8 +12,8 @@ const Hero = () => {
         alt='banner png'/>
     <Navbar />
 
-    <div className='container h-[calc(90vh-90px)] grid items-center mt-0'>
-       <div className='space-y-4 bg-[#ffffff98] w-fit p-4 sm:mt-0'>
+    <div className='container h-[calc(80vh-60px)] grid items-center mt-0 sm:mb-0'>
+       <div className='space-y-6 bg-[#ffffff98] w-fit p-4 sm:mt-0'>
         <p className='uppercase font-medium'>Su mejor Opcion</p>
         <h2 className='text-4xl sm:text-6xl font-bold'>
          <span className='text-primary'>Sweet</span><span className='text-accent'>Shop</span>

@@ -8,7 +8,7 @@ const Menu = () => {
     <div className='container pt-40'>
         <div className='space-y-4 w-fit mx-auto text-center'>
         <h2 className='text-6xl font-bold'>
-         Nuestros  <span className='text-accent'>Menu</span>
+         Nuestro <span className='text-accent'>Menu</span>
         </h2>
 
         <p className=' text-gray-700'>

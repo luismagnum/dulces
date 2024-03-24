@@ -12,7 +12,7 @@ const Navbar = () => {
                 <li>Products</li>
                 <li>Recetas</li>
                 <li>Contact0</li>
-                <button className='bg-accent text-white px-6 py-2 rounded-3xl'>Encargar</button>
+                <button className='bg-accent text-white px-6 py-3 rounded-3xl'>Encargar</button>
             </ul>
             <IoMenu  className='md:hidden text-accent' size={30}/>
         </div>

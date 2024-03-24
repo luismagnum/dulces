@@ -4,12 +4,11 @@ import Image from 'next/image'
 
 const Feature = () => {
   return (
-    <div className='container pt-0'>
+    <div className='container pt-0 sm:mt-0'>
         <h2 className='text-6xl font-bold'>Nuestros</h2>
         <h2 className='text-6xl font-bold pt-2'>
         Dulces  <span className='text-accent'>tipicos</span>
         </h2>
-
         <p className='max-w-[550px] pt-10 text-gray-700'>
         La pastelería <span className='text-accent font-bold'>Sweet Shop</span> es una verdadera joya oculta 
         en el corazón de la ciudad. Desde el momento en que entras 
