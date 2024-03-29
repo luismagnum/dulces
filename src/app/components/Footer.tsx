@@ -35,8 +35,10 @@ const Footer = () => {
             <FaSquareXTwitter />
             </div>
         </div>
-        <br></br><br></br>
+        <br></br>
     </div>
+     <div className='text-center justify-center font-bold'>Software Developer Luis E diaz</div>
+     <br></br>
     </div>
   )
 }

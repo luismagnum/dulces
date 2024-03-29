@@ -10,7 +10,6 @@ const Menu = () => {
         <h2 className='text-6xl font-bold'>
          Nuestro <span className='text-accent'>Menu</span>
         </h2>
-
         <p className=' text-gray-700'>
         Nuestros chocolates son una indulgencia sin remordimientos, con una textura suave
          y un sabor rico y satisfactorio que te dejará deseando más.

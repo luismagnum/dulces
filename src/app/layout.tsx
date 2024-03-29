@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/Footer";
+import Navar from "./components/Navar";
+import Navbar from "./components/Navbar";
+import Feature from './components/Feature'
+import Link from "next/link";
+import Hero from "./components/Hero";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,7 +17,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: Readonly<{ 
   children: React.ReactNode;
 }>) {
   return (

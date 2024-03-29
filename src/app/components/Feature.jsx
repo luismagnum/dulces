@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Feature = () => {
   return (
-    <div className='container pt-0 sm:mt-0'>
+    <div className='container pt-10 sm:mt-2'>
         <h2 className='text-6xl font-bold'>Nuestros</h2>
         <h2 className='text-6xl font-bold pt-2'>
         Dulces  <span className='text-accent'>tipicos</span>
@@ -24,8 +24,9 @@ const Feature = () => {
         <Dash />
         <h2 className='font-medium text-xl'>Mas Dulces</h2>
         <p className='text-gray-700 text-[14px] xl-text-[16px]'>
-            Y tenemos mas dulces sabrosos como el dulce de leche dulce 
-            de guayaba de lechoza y dulce de leche y muchas mas.
+        Los dulces, esos pequeños trozos de felicidad envueltos en azúcar,
+         han sido durante mucho tiempo los compañeros de juego preferidos 
+         de los niños en todo el mundo.  
         </p>
         </div>  
         </div>
@@ -37,8 +38,8 @@ const Feature = () => {
         <Dash />
         <h2 className='font-medium text-xl'>Mas Dulces</h2>
         <p className='text-gray-700 text-[14px] xl-text-[16px]'>
-            Y tenemos mas dulces sabrosos como el dulce de leche dulce 
-            de guayaba de lechoza y dulce de leche y muchas mas.
+        Imagina a un niño con los ojos brillantes y la sonrisa radiante,
+         sus manos ansiosas por alcanzar un caramelo,
         </p>
         </div>  
         </div>
@@ -49,8 +50,9 @@ const Feature = () => {
         <Dash />
         <h2 className='font-medium text-xl'>Mas Dulces</h2>
         <p className='text-gray-700 text-[14px] xl-text-[16px]'>
-            Y tenemos mas dulces sabrosos como el dulce de leche dulce 
-            de guayaba de lechoza y dulce de leche y muchas mas.
+        Los dulces no son solo una delicia para el paladar.
+         Los recuerdos de pasar tardes enteras explorando el sabor de
+         los dulces son tesoros que perduran en la memoria de muchos.
         </p>
         </div>  
         </div>
