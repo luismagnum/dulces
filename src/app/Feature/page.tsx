@@ -1,9 +1,12 @@
 import React from 'react'
-import Dash from './Dash'
+import  Link from 'next/link'
+import Dash from '../components/Dash'
 import Image from 'next/image'
 
-const Feature = () => {
+export default function Feature() {
   return (
+    <>
+    <Link href='/' className='m-4 font-bold'>Home</Link>
     <div className='container pt-10 sm:mt-2'>
         <h2 className='text-6xl font-bold'>Nuestros</h2>
         <h2 className='text-6xl font-bold pt-2'>
@@ -58,7 +61,6 @@ const Feature = () => {
         </div>
     </div>
     </div>
+  </>
   )
 }
-
-export default Feature

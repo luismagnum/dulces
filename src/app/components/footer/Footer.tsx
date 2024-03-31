@@ -3,7 +3,7 @@ import { FaFacebook } from 'react-icons/fa';
 import { FaInstagramSquare } from 'react-icons/fa';
 import { FaSquareXTwitter } from 'react-icons/fa6';
 
-const Footer = () => {
+export default function Footer()  {
   return (
     <div className='container pt-40'>
         <div className='grid md:grid-cols-3 gap-16'>
@@ -42,5 +42,3 @@ const Footer = () => {
     </div>
   )
 }
-
-export default Footer

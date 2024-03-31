@@ -1,11 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
-import Navbar from './Navbar'
-import Navar from './Navar'
-import Navb from './Navb'
-import Dash from './Dash'
+import Navar from '../components/Navar'
+import Dash from '../components/Dash'
 
-const Hero = () => {
+export default function Hero() {
   return (
     <div className='relative min-h-full '>
        <Image className="lg:w-[680px] xl:w-[820px] h-auto absolute right-0 top-10 -z-10" 
@@ -13,9 +11,9 @@ const Hero = () => {
         width={1000}
         height={600} 
         alt='banner png'/>
-      <Navar />
-    <div className='container h-[calc(80vh-70px)] grid items-center mt-10 sm:mb-0'>
-       <div className='space-y-6 w-fit p-4 sm:mt-4'>
+      
+    <div className='container h-[calc(80vh-80px)] grid items-center mt-10 sm:mb-0'>
+       <div className='space-y-6 w-fit p-4 sm:mt-6 mb-[-60px]'>
       <Dash /> 
         <h2 className='text-4xl sm:text-6xl font-bold'>
          <span className='text-primary'>Sweet</span><span className='text-accent'>Shop</span>
@@ -28,5 +26,3 @@ const Hero = () => {
     </div>
   )
 }
-
-export default Hero

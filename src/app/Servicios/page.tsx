@@ -1,9 +1,12 @@
 import React from 'react'
-import Dash from './Dash'
+import Dash from '../components/Dash'
 import Image from 'next/image'
+import Link from 'next/link'
 
-const Services = () => {
+export default function Servicios() {
   return (
+    <>
+    <Link href='/' className='m-4 font-bold'>Home</Link>
     <div className='container pt-40'>
         <div className='space-y-4 w-fit mx-auto text-center'>
         <h2 className='text-6xl font-bold'>
@@ -44,7 +47,6 @@ const Services = () => {
         </div>
     </div>
     </div>
+    </>
   )
 }
-
-export default Services

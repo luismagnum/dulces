@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Footer from "./components/Footer";
-import Navar from "./components/Navar";
-import Navbar from "./components/Navbar";
-import Feature from './components/Feature'
-import Link from "next/link";
-import Hero from "./components/Hero";
+import Footer from "./components/footer/Footer";
+import Naba from "./components/Nabar";
+import Nabar from "./components/Nabar";
+
+
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+      <Nabar /> 
       {children}
       <Footer />
       </body>

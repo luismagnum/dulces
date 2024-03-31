@@ -1,8 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 
-const Survey = () => {
+export default function Survey() {
   return (
+    <>
+    <Link href='/' className='m-4 font-bold'>Home</Link>
     <div className='container pt-40'>
         <div className='grid lg:grid-cols-[50%,1fr] gap-20'>
             <div>
@@ -28,7 +31,6 @@ const Survey = () => {
             </div>
         </div>
     </div>
+  </>
   )
 }
-
-export default Survey
