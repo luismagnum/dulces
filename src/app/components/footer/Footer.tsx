@@ -5,8 +5,8 @@ import { FaSquareXTwitter } from 'react-icons/fa6';
 
 export default function Footer()  {
   return (
-    <div className='container lg:pt-40'>
-        <div className='grid md:grid-cols-3 gap-16'>
+    <div className='container sm:mt-52'>
+        <div className='grid md:grid-cols-3 gap-16 mt-20'>
             <div className='space-y-3'>
                 <h2 className='text-xl font-bold'>Acerca de nosotros</h2>
                 <p className='leading-[1.8]'>
