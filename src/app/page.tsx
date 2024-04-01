@@ -8,10 +8,10 @@ export default function Home() {
   return (
   <div >
     <nav className='md:flex flex-row text-center items-center text-lg font-medium gap-8 ml-4 mr-4 '>
-     <Link href='/Feature'>Productos </Link>
-     <Link href='/Servicios'>Servicios </Link>
-     <Link href='/Menu'>Menu </Link>
-     <Link href='/Survey'>Dulces</Link>
+     <Link href='/Feature' className='hover:text-accent'> Productos/ </Link>
+     <Link href='/Servicios' className='hover:text-accent'> Servicios/ </Link>
+     <Link href='/Menu' className='hover:text-accent'> Menu/ </Link>
+     <Link href='/Survey' className='hover:text-accent'> Dulces/</Link>
      </nav>
      <Hero />
   </div>

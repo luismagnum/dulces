@@ -15,10 +15,10 @@ export default function Hero() {
     <div className='container h-[calc(80vh-80px)] grid items-center mt-10 sm:mb-0'>
        <div className='space-y-6 w-fit p-4 sm:mt-6 mb-[-60px]'>
       <Dash /> 
-        <h2 className='text-4xl sm:text-6xl font-bold'>
+        <h2 className='text-6xl sm:text-6xl font-bold'>
          <span className='text-primary'>Sweet</span><span className='text-accent'>Shop</span>
         </h2>
-        <p className='text-gray-700 text-[16px] sm:text-[18px]'>Deliciosos dulces.<br/>
+        <p className='text-gray-700 text-[16px] sm:text-[18px]'>Deliciosos dulces<br/>
          estan esperando por ti</p>
          <button className='bg-accent text-white px-6 py-2 rounded-3xl text-[14px] sm:text-[16px]'>Encargar</button>
        </div>

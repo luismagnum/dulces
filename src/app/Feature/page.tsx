@@ -7,7 +7,7 @@ export default function Feature() {
   return (
     <>
     <Link href='/' className='m-4 font-bold'>Home</Link>
-    <div className='container pt-10 sm:mt-2'>
+    <div className='container pt-10 sm:mt-2 mb-10'>
         <h2 className='text-6xl font-bold'>Nuestros</h2>
         <h2 className='text-6xl font-bold pt-2'>
         Dulces  <span className='text-accent'>tipicos</span>
@@ -36,7 +36,7 @@ export default function Feature() {
 
         <div className='w-fit mx-auto'>
         <Image className='w-[100%] max-w-[400px] sm:max-w-full h-auto shadow-2xl'
-            src='/banner-3.png' width={400} height={800} alt='grid image'/>
+            src='/banner-3.png' width={300} height={700} alt='grid image'/>
         <div className='space-y-4'>
         <Dash />
         <h2 className='font-medium text-xl'>Mas Dulces</h2>
