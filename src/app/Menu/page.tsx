@@ -8,7 +8,7 @@ export default function Menu() {
   return (
     <>
     <Link href='/' className='m-4 font-bold'>Home</Link>
-    <div className='container pt-40 mb-10'>
+    <div className='container pt-30 mb-10'>
         <div className='space-y-4 w-fit mx-auto text-center'>
         <h2 className='text-6xl font-bold'>
          Nuestro <span className='text-accent'>Menu</span>

@@ -5,8 +5,8 @@ import Link from 'next/link'
 export default function Survey() {
   return (
     <>
-    <Link href='/' className='m-4 font-bold'>Home</Link>
-    <div className='container pt-40 mb-10'>
+    <Link href='/' className='m-4 font-bold '>Home</Link>
+    <div className='container pt-4 mb-10'>
         <div className='grid lg:grid-cols-[50%,1fr] gap-20'>
             <div>
                 <Image
